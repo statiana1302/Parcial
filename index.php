@@ -15,11 +15,13 @@
 		<h1>Sistema Hospital</h1>
 		<br><br>
 
+		<form action="registro.php" method="POST">
+
 		<table align="center" id="tab1">
 		<tr>
 			
 			<th>
-				<input type="button" id="opcion1" value="Calcular precio" 
+				<input type="button" id="opcion1" value="Registrar" 
 				onclick="javascript:opcion1();" >	
 			</th>
 			<th>
@@ -53,7 +55,7 @@
 				<input type="text" id="campo4" size="25">	
 				</div></th>
 		</tr>
-
+		</form>
 	</table>
 	</div>
 
